@@ -17,9 +17,18 @@
         }
         header {
             background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-            padding: 30px 20px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
             text-align: center;
             box-shadow: 0 4px 10px rgba(0, 255, 204, 0.2);
+        }
+        header img {
+            height: 60px;
+            border-radius: 10px;
         }
         header h1 {
             color: #00ffcc;
@@ -29,7 +38,7 @@
         }
         header p {
             color: #ccc;
-            margin-top: 10px;
+            margin-top: 5px;
             font-size: 16px;
         }
         nav {
@@ -90,8 +99,11 @@
 </head>
 <body>
     <header>
-        <h1>Next Edge Technologies</h1>
-        <p>Bringing Virtual Worlds to Life</p>
+        <img src="logo.png" alt="Logo">
+        <div>
+            <h1>Next Edge Technologies</h1>
+            <p>Bringing Virtual Worlds to Life</p>
+        </div>
     </header>
     <nav>
         <a href="#home">Home</a>
